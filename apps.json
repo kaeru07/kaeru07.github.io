@@ -1,0 +1,20 @@
+[
+  {
+    "name": "暇潰し！",
+    "bundleId": "jp.kaeru07.himatsubushi",
+    "privacyPolicyUrl": "https://kaeru07.github.io/privacy/himatsubushi.html",
+    "supportUrl": "https://kaeru07.github.io/support/himatsubushi.html"
+  },
+  {
+    "name": "麻雀実戦読みトレーナー",
+    "bundleId": "com.kaeru07.mahjongtrainer",
+    "privacyPolicyUrl": "https://kaeru07.github.io/privacy/mahjong-trainer.html",
+    "supportUrl": "https://kaeru07.github.io/support/mahjong-trainer.html"
+  },
+  {
+    "name": "麻雀読みトレーニング",
+    "bundleId": "com.kaeru07.mahjong",
+    "privacyPolicyUrl": "https://kaeru07.github.io/privacy/mahjong.html",
+    "supportUrl": "https://kaeru07.github.io/support/mahjong.html"
+  }
+]
