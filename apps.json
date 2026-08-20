@@ -16,5 +16,11 @@
     "bundleId": "com.kaeru07.mahjong",
     "privacyPolicyUrl": "https://kaeru07.github.io/privacy/mahjong.html",
     "supportUrl": "https://kaeru07.github.io/support/mahjong.html"
+  },
+  {
+    "name": "麻雀手牌解析AI",
+    "bundleId": "com.kaeru07.mahjonganalyzer",
+    "privacyPolicyUrl": "https://kaeru07.github.io/privacy/mahjong-analyzer.html",
+    "supportUrl": "https://kaeru07.github.io/support/mahjong-analyzer.html"
   }
 ]
