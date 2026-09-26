@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AdMob API Data Access — kaeru07 apps</title>
+<style>
+  body { font-family: -apple-system, "Hiragino Sans", "Noto Sans JP", sans-serif; max-width: 720px; margin: 0 auto; padding: 24px 16px 64px; line-height: 1.8; color: #222; }
+  h1 { font-size: 1.4rem; border-bottom: 2px solid #ddd; padding-bottom: 8px; }
+  h2 { font-size: 1.1rem; margin-top: 2em; }
+  footer { margin-top: 3em; font-size: .85rem; color: #666; }
+  @media (prefers-color-scheme: dark) { body { background: #111; color: #ddd; } h1 { border-color: #444; } a { color: #8ab4f8; } footer { color: #999; } }
+</style>
+</head>
+<body>
+<h1>AdMob API Data Access</h1>
+
+<p>このページは、kaeru07 が自身の AdMob アカウントの情報を自動取得・集計するために利用している OAuth 連携について説明するものです。</p>
+
+<h2>機能</h2>
+<p>Google AdMob API を利用し、開発者本人の AdMob アカウントに関するアカウント情報、アプリ・広告ユニット情報、広告レポート等の読み取り専用データを取得し、収益・広告配信状況の把握や個人開発アプリの改善判断に利用します。</p>
+
+<h2>Google ユーザーデータを利用する目的</h2>
+<p>OAuth 認可では、AdMob データを読み取るための <code>admob.readonly</code> スコープのみを利用します。取得した情報は、開発者本人の AdMob 運用状況の確認・集計・分析のためにのみ利用します。</p>
+
+<h2>対象ユーザー</h2>
+<p>この OAuth 連携は開発者本人の管理用途を想定しています。App Store で公開しているアプリの利用者が Google アカウントでログインしたり、この OAuth 連携を許可したりする必要はありません。</p>
+
+<h2>プライバシー</h2>
+<p>Google ユーザーデータのアクセス、利用、保存、共有に関する詳細は、<a href="/privacy/admob-oauth.html">AdMob API OAuth プライバシーポリシー</a>をご確認ください。</p>
+
+<footer>
+<p>Developer: kaeru07<br>
+<a href="https://github.com/kaeru07">GitHub</a></p>
+</footer>
+</body>
+</html>
